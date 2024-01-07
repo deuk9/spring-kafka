@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
-public class TopicConfig {
+public class TopicConfiguration {
 
     @Bean
     public KafkaAdmin admin() {
@@ -22,7 +22,7 @@ public class TopicConfig {
 
     @Bean
     public NewTopic topic() {
-        return TopicBuilder.name("order.request")
+        return TopicBuilder.name("member.request")
                 .partitions(3)
                 .compact()
                 .build();

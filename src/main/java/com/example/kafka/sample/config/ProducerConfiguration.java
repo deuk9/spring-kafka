@@ -1,4 +1,4 @@
 package com.example.kafka.sample.config;
 
-public class ProducerConfig {
+public class ProducerConfiguration {
 }
